@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Risen Startup Page</title>
+<style>
+  :root { --bg: #fbfaf7; --fg: #1f2328; --muted: #5b6168; --line: #e3e0d8; --link: #0b5cad; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #15171a; --fg: #e8e6e1; --muted: #a3a8ae; --line: #2c3036; --link: #7db4f0; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 16px 72px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 1.1rem; margin: 32px 0 8px; }
+  a { color: var(--link); }
+  footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px;
+           color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Risen Startup Page</h1>
+  <p class="sub">A private morning page for one person.</p>
+
+  <p>Risen Startup Page is a personal app that runs on its owner's own computer.
+  Each morning it shows one calm page: the date, today's calendar, a short look
+  at the inbox, and the day's world news.</p>
+
+  <h2>What it does with Google</h2>
+  <p>With the owner's permission, it reads two things, read-only:</p>
+  <ul>
+    <li><strong>Gmail message details</strong> &mdash; how many messages are unread,
+    and the sender and subject of the important ones. It never reads a message body.</li>
+    <li><strong>Google Calendar</strong> &mdash; today's events, in time order.</li>
+  </ul>
+  <p>It cannot send, delete, label or change any mail, and it cannot change the calendar.</p>
+
+  <h2>Who it is for</h2>
+  <p>Only its owner. It is not offered to the public, there is no sign-up, and it
+  shows no ads.</p>
+
+  <p><a href="privacy.html">Privacy note</a></p>
+
+  <footer>Risen Startup Page &middot; <a href="privacy.html">Privacy</a></footer>
+</main>
+</body>
+</html>
